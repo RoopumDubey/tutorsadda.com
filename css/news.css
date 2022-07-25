@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+ }
+ .pageborder{
+    border:3px solid #1abc9c;
+ }
+ .header {
+    background-image: url(/img/heder.jpg);
+    background-repeat:no-repeat;
+    padding: 10px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    font-family: 'Macondo', cursive;
+  }
+ .topnav {
+    overflow: hidden;
+    background-color: whitesmoke;
+    border-bottom: 3px solid #1abc9c;
+    border-top: 3px solid #1abc9c;
+ }
+  
+  .topnav a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+  }
+  
+  .topnav a:hover {
+    background-color: gray;
+    
+  }
+  .bgcolor{
+      background-color: #1abc9c81;
+  }
+  
+  section{
+   margin:auto;
+    width: 93%;
+    border: 3px solid #333;
+    padding: 4px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    background-color: white;    
+}
+.heading{
+    text-align: center;
+    font-size: 50px;
+    font-weight:bold;
+}
+ul{list-style-type:circle;
+}
+a{
+    text-decoration:none;
+}
+a:visited {
+    color:black;
+}
+  footer {
+    overflow: hidden;
+    background-color: whitesmoke;
+    border-top: 3px solid #1abc9c;    
+}
+
+footer a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bolder;
+}
+footer a:hover
+ {
+    background-color: gray;
+}
